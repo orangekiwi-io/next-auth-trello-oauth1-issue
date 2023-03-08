@@ -1,16 +1,24 @@
 {
   "name": "next-auth-trello-oauth1-issue",
+  "author": "Richard <hello@orangekiwi.io>",
+  "bugs": {
+    "url": "https://github.com/nextauthjs/next-auth/issues/6873"
+  },
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start",
-    "lint": "next lint"
+      "dev": "next dev -p 8081",
+      "build": "next build",
+      "start": "next start",
+      "lint": "next lint"
   },
   "dependencies": {
-    "next": "13.2.3",
-    "react": "18.2.0",
-    "react-dom": "18.2.0"
+      "next": "13.2.3",
+      "next-auth": "^4.20.1",
+      "react": "18.2.0",
+      "react-dom": "18.2.0"
+  },
+  "engines": {
+      "node": ">=18.14.2"
   }
 }
