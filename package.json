@@ -1,6 +1,6 @@
 {
   "name": "next-auth-trello-oauth1-issue",
-  "author": "Richard <hello@orangekiwi.io>",
+  "author": "Richard <info@orangekiwi.io>",
   "bugs": {
     "url": "https://github.com/nextauthjs/next-auth/issues/6873"
   },
